@@ -1,0 +1,41 @@
+/* src/components/SchoolsTable/SchoolsTable.css */
+.schools-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .schools-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .schools-table {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .school-image {
+    width: 100px;
+    height: auto;
+  }
+  
+  .update-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination .page-link {
+    color: #007bff;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  

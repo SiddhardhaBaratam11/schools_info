@@ -1,0 +1,24 @@
+/* src/components/HomePage/HomePage.css */
+.home-container {
+  background-color: #aa5f5f;
+}
+
+.custom-navbar {
+  background-color: #007bff;
+}
+
+.navbar-brand {
+  color: #570c0c;
+  font-weight: bold;
+}
+
+.nav-link {
+  margin-right: 15px;
+  color: #010f0c;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #000000;
+}
